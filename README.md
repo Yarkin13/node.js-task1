@@ -19,10 +19,7 @@ npm install
 
 ## Task 1. Caesar cipher cli
 
-CLI tool accept 4 options (short alias and full name):
-```
--s, --shift : a shift -i, --input [inputPath]: an input file -o, --output [outputPath]: an output file -a, --action : an action encode/decode
-```
+CLI tool accept 4 options (short alias or full name):
 
 Shift and action are required.
 
