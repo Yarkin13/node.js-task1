@@ -31,12 +31,18 @@ To use tool you should:
 4. Change directory to src/caesar-cipher-cli/
 5. Write node index.js and add all the neccessary options like:
 ```
-$ node my_caesar_cli -a encode -s 7 -i "./input.txt" -o "./output.txt"
+$ node index.js -a encode -s 7 -i "./input.txt" -o "./output.txt"
 ```
 ```
-$ node my_caesar_cli --action encode --shift 7 --input plain.txt --output encoded.txt
+$ node index.js --action encode --shift 7 --input input.txt --output output.txt
 ```
 ```
-$ node my_caesar_cli --action decode --shift 7 --input decoded.txt --output plain.txt
+$ node index.js --action decode --shift 7 --input input.txt --output output.txt
+```
+```
+$ node index.js --action encode --shift 7 --input input.txt
+```
+```
+$ node index.js --action decode --shift 7 -o output.txt
 ```
 
